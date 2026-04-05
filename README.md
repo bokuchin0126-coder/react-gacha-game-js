@@ -1,16 +1,25 @@
-# React + Vite
+#チュートリアルガチャアプリ
+簡単なガチャ機能を再現したReactアプリです。
+単発・10連ガチャや、演出・結果保存までの一連の流れを実装しています。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##機能
+- 単発ガチャ
+- 10連ガチャ（最大10体まで制限）
+- レアリティ別表示（R / SR / SSR）
+- ガチャ演出（簡易アニメーション）
+- ローディング演出
+- 結果確認画面
+- 最終メッセージ表示
 
-Currently, two official plugins are available:
+##使用技術
+- React
+- JavaScript
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##学習目的
+本アプリはポートフォリオではなく、ガチャ機能や状態管理の理解を目的とした学習用の制作です。
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##今後の改善点
+- 演出の強化
+- サウンド追加
+- コンポーネント分割の最適化
