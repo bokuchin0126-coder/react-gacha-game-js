@@ -1,0 +1,69 @@
+.saved-data {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 800;
+}
+
+.gacha-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1000%;
+    height: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    pointer-events: none;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.ssr {
+    background: linear-gradient(135deg, gold, orange);
+    animation: flash 0.5s ease;
+}
+
+.sr {
+    background-color: lightblue;
+    animation: flash 0.5s ease;
+}
+
+.r {
+    background-color: lightgreen;
+    animation: flash 0.5s ease;
+}
+
+.game-set {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
